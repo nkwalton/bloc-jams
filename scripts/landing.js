@@ -8,7 +8,7 @@ var revealPoint = function(point) {
     point.style.WebkitTransform = "scaleX(1) translateY(0)";
 };
 
-var animatePoints = function(points) {
+var animatePoints = function(points) {}
      forEach(points, revealPoint);
  };
 
