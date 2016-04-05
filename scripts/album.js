@@ -105,14 +105,6 @@ var findParentByClassName = function(element, targetClass) {
         }
 };
 
-var findParentByClassName = function(element, targetClass) {
-    if (element) {
-        var currentParent = element.parentElement;
-        //check if parent exists, if not, alert "No parent found"
-        //check parent witha the given class name, if it fails- alert "No parent found with that class name"
-        return currentParent;
-    }
-};
 
 //x = document.getElementsByCLassName('potato')[0]
 // findParentByClassName(x, "album-row")
